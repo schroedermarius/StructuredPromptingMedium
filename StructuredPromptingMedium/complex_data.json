@@ -1,0 +1,4482 @@
+[
+  {
+    "id": 1,
+    "name": "Alice \n\"Johnson",
+    "department": "Engineering",
+    "salary": 120000,
+    "address": {
+      "street": "123 Tech Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "contactInfo": {
+      "email": "alice.johnson@company.com",
+      "phone": "+1-555-0101",
+      "linkedIn": "https://linkedin.com/in/alicejohnson",
+      "emergencyContact": {
+        "name": "Bob Johnson",
+        "phone": "+1-555-0102",
+        "relationship": "Spouse"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-03-15T00:00:00",
+      "jobTitle": "Senior Software Engineer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-01-15T00:00:00",
+        "rating": 9,
+        "comments": "Excellent performance, strong technical skills, great team player",
+        "goals": ["Lead architecture design", "Mentor junior developers", "Improve system performance"]
+      }
+    },
+    "skills": [
+      {
+        "name": "C#",
+        "level": 9,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Microsoft Certified: Azure Developer Associate"]
+      },
+      {
+        "name": "JavaScript",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "React",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-09-20T00:00:00",
+        "certifications": []
+      }
+    ],
+    "projects": [
+      {
+        "id": 1001,
+        "name": "Customer Portal Redesign",
+        "description": "Complete overhaul of the customer-facing portal with modern UI/UX",
+        "startDate": "2024-01-01T00:00:00",
+        "endDate": "2024-06-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+        "metrics": {
+          "linesOfCode": 15000,
+          "bugsFixed": 23,
+          "featuresDelivered": 12,
+          "customerSatisfaction": 4.8
+        }
+      },
+      {
+        "id": 1002,
+        "name": "API Microservices Migration",
+        "description": "Migration from monolithic architecture to microservices",
+        "startDate": "2024-07-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["C#", ".NET Core", "Docker", "Kubernetes", "Azure"],
+        "metrics": {
+          "linesOfCode": 8500,
+          "bugsFixed": 15,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.5
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob Martinez",
+    "department": "Marketing",
+    "salary": 95000,
+    "address": {
+      "street": "456 Marketing Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      }
+    },
+    "contactInfo": {
+      "email": "bob.martinez@company.com",
+      "phone": "+1-555-0201",
+      "linkedIn": "https://linkedin.com/in/bobmartinez",
+      "emergencyContact": {
+        "name": "Maria Martinez",
+        "phone": "+1-555-0202",
+        "relationship": "Sister"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2021-08-01T00:00:00",
+      "jobTitle": "Marketing Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 101,
+        "name": "Sarah Wilson",
+        "email": "sarah.wilson@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-02-01T00:00:00",
+        "rating": 8,
+        "comments": "Strong creative skills, good campaign performance",
+        "goals": ["Increase social media engagement", "Launch new product campaign", "Develop video content strategy"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Digital Marketing",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Google Ads Certified", "Facebook Blueprint Certified"]
+      },
+      {
+        "name": "Content Creation",
+        "level": 9,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["Content Marketing Institute Certification"]
+      },
+      {
+        "name": "Analytics",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Google Analytics Certified"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 2001,
+        "name": "Q3 Product Launch Campaign",
+        "description": "Multi-channel marketing campaign for new product launch",
+        "startDate": "2024-07-01T00:00:00",
+        "endDate": "2024-09-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["HubSpot", "Google Ads", "Facebook Ads", "Mailchimp"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 15,
+          "customerSatisfaction": 4.6
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Charlie Chen",
+    "department": "Engineering",
+    "salary": 110000,
+    "address": {
+      "street": "789 Innovation Blvd",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      }
+    },
+    "contactInfo": {
+      "email": "charlie.chen@company.com",
+      "phone": "+1-555-0301",
+      "linkedIn": "https://linkedin.com/in/charliechen",
+      "emergencyContact": {
+        "name": "Lisa Chen",
+        "phone": "+1-555-0302",
+        "relationship": "Mother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2022-01-10T00:00:00",
+      "jobTitle": "Full Stack Developer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO", "Education Reimbursement"],
+      "lastReview": {
+        "reviewDate": "2024-01-10T00:00:00",
+        "rating": 8,
+        "comments": "Solid technical skills, good problem solver",
+        "goals": ["Learn cloud architecture", "Improve testing practices", "Take on team lead role"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Python Institute PCAP"]
+      },
+      {
+        "name": "Django",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-20T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 6,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": ["PostgreSQL Associate Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 3001,
+        "name": "Internal Tools Dashboard",
+        "description": "Centralized dashboard for internal team productivity tools",
+        "startDate": "2024-03-01T00:00:00",
+        "endDate": "2024-08-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Python", "Django", "PostgreSQL", "React"],
+        "metrics": {
+          "linesOfCode": 12000,
+          "bugsFixed": 18,
+          "featuresDelivered": 10,
+          "customerSatisfaction": 4.7
+        }
+      },
+      {
+        "id": 3002,
+        "name": "Data Analytics Pipeline",
+        "description": "Automated data processing and analytics pipeline",
+        "startDate": "2024-09-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Python", "Apache Kafka", "Elasticsearch", "Kibana"],
+        "metrics": {
+          "linesOfCode": 6500,
+          "bugsFixed": 5,
+          "featuresDelivered": 4,
+          "customerSatisfaction": 4.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Diana Rodriguez",
+    "department": "Sales",
+    "salary": 105000,
+    "address": {
+      "street": "321 Sales Plaza",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      }
+    },
+    "contactInfo": {
+      "email": "diana.rodriguez@company.com",
+      "phone": "+1-555-0401",
+      "linkedIn": "https://linkedin.com/in/dianarodriguez",
+      "emergencyContact": {
+        "name": "Carlos Rodriguez",
+        "phone": "+1-555-0402",
+        "relationship": "Brother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2019-11-01T00:00:00",
+      "jobTitle": "Senior Sales Representative",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 102,
+        "name": "Michael Davis",
+        "email": "michael.davis@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Commission", "Flexible PTO", "Car Allowance"],
+      "lastReview": {
+        "reviewDate": "2023-11-01T00:00:00",
+        "rating": 9,
+        "comments": "Outstanding sales performance, excellent client relationships",
+        "goals": ["Expand territory", "Mentor new sales reps", "Achieve 120% of quota"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Relationship Building",
+        "level": 10,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Sandler Sales Training"]
+      },
+      {
+        "name": "CRM Management",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Salesforce Administrator"]
+      },
+      {
+        "name": "Negotiation",
+        "level": 9,
+        "yearsExperience": 7,
+        "lastUsed": "2024-10-28T00:00:00",
+        "certifications": ["Harvard Negotiation Project"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 4001,
+        "name": "Enterprise Client Acquisition",
+        "description": "Strategic initiative to acquire major enterprise clients",
+        "startDate": "2024-01-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 25,
+          "customerSatisfaction": 4.9
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Edward Thompson",
+    "department": "HR",
+    "salary": 85000,
+    "address": {
+      "street": "654 HR Heights",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      }
+    },
+    "contactInfo": {
+      "email": "edward.thompson@company.com",
+      "phone": "+1-555-0501",
+      "linkedIn": "https://linkedin.com/in/edwardthompson",
+      "emergencyContact": {
+        "name": "Jennifer Thompson",
+        "phone": "+1-555-0502",
+        "relationship": "Wife"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-06-15T00:00:00",
+      "jobTitle": "HR Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 103,
+        "name": "Rachel Green",
+        "email": "rachel.green@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO", "Professional Development"],
+      "lastReview": {
+        "reviewDate": "2024-06-15T00:00:00",
+        "rating": 7,
+        "comments": "Good attention to detail, strong organizational skills",
+        "goals": ["Improve employee engagement", "Streamline onboarding process", "Develop HR analytics"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Recruitment",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["SHRM-CP"]
+      },
+      {
+        "name": "Employee Relations",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["PHR Certification"]
+      },
+      {
+        "name": "HRIS Systems",
+        "level": 6,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Workday HCM Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 5001,
+        "name": "Employee Onboarding Automation",
+        "description": "Digital transformation of employee onboarding process",
+        "startDate": "2024-04-01T00:00:00",
+        "endDate": "2024-10-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Workday", "DocuSign", "Slack", "Microsoft Forms"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.4
+        }
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "department": "Engineering",
+    "salary": 120000,
+    "address": {
+      "street": "123 Tech Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "contactInfo": {
+      "email": "alice.johnson@company.com",
+      "phone": "+1-555-0101",
+      "linkedIn": "https://linkedin.com/in/alicejohnson",
+      "emergencyContact": {
+        "name": "Bob Johnson",
+        "phone": "+1-555-0102",
+        "relationship": "Spouse"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-03-15T00:00:00",
+      "jobTitle": "Senior Software Engineer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-01-15T00:00:00",
+        "rating": 9,
+        "comments": "Excellent performance, strong technical skills, great team player",
+        "goals": ["Lead architecture design", "Mentor junior developers", "Improve system performance"]
+      }
+    },
+    "skills": [
+      {
+        "name": "C#",
+        "level": 9,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Microsoft Certified: Azure Developer Associate"]
+      },
+      {
+        "name": "JavaScript",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "React",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-09-20T00:00:00",
+        "certifications": []
+      }
+    ],
+    "projects": [
+      {
+        "id": 1001,
+        "name": "Customer Portal Redesign",
+        "description": "Complete overhaul of the customer-facing portal with modern UI/UX",
+        "startDate": "2024-01-01T00:00:00",
+        "endDate": "2024-06-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+        "metrics": {
+          "linesOfCode": 15000,
+          "bugsFixed": 23,
+          "featuresDelivered": 12,
+          "customerSatisfaction": 4.8
+        }
+      },
+      {
+        "id": 1002,
+        "name": "API Microservices Migration",
+        "description": "Migration from monolithic architecture to microservices",
+        "startDate": "2024-07-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["C#", ".NET Core", "Docker", "Kubernetes", "Azure"],
+        "metrics": {
+          "linesOfCode": 8500,
+          "bugsFixed": 15,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.5
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob Martinez",
+    "department": "Marketing",
+    "salary": 95000,
+    "address": {
+      "street": "456 Marketing Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      }
+    },
+    "contactInfo": {
+      "email": "bob.martinez@company.com",
+      "phone": "+1-555-0201",
+      "linkedIn": "https://linkedin.com/in/bobmartinez",
+      "emergencyContact": {
+        "name": "Maria Martinez",
+        "phone": "+1-555-0202",
+        "relationship": "Sister"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2021-08-01T00:00:00",
+      "jobTitle": "Marketing Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 101,
+        "name": "Sarah Wilson",
+        "email": "sarah.wilson@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-02-01T00:00:00",
+        "rating": 8,
+        "comments": "Strong creative skills, good campaign performance",
+        "goals": ["Increase social media engagement", "Launch new product campaign", "Develop video content strategy"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Digital Marketing",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Google Ads Certified", "Facebook Blueprint Certified"]
+      },
+      {
+        "name": "Content Creation",
+        "level": 9,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["Content Marketing Institute Certification"]
+      },
+      {
+        "name": "Analytics",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Google Analytics Certified"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 2001,
+        "name": "Q3 Product Launch Campaign",
+        "description": "Multi-channel marketing campaign for new product launch",
+        "startDate": "2024-07-01T00:00:00",
+        "endDate": "2024-09-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["HubSpot", "Google Ads", "Facebook Ads", "Mailchimp"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 15,
+          "customerSatisfaction": 4.6
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Charlie Chen",
+    "department": "Engineering",
+    "salary": 110000,
+    "address": {
+      "street": "789 Innovation Blvd",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      }
+    },
+    "contactInfo": {
+      "email": "charlie.chen@company.com",
+      "phone": "+1-555-0301",
+      "linkedIn": "https://linkedin.com/in/charliechen",
+      "emergencyContact": {
+        "name": "Lisa Chen",
+        "phone": "+1-555-0302",
+        "relationship": "Mother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2022-01-10T00:00:00",
+      "jobTitle": "Full Stack Developer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO", "Education Reimbursement"],
+      "lastReview": {
+        "reviewDate": "2024-01-10T00:00:00",
+        "rating": 8,
+        "comments": "Solid technical skills, good problem solver",
+        "goals": ["Learn cloud architecture", "Improve testing practices", "Take on team lead role"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Python Institute PCAP"]
+      },
+      {
+        "name": "Django",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-20T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 6,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": ["PostgreSQL Associate Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 3001,
+        "name": "Internal Tools Dashboard",
+        "description": "Centralized dashboard for internal team productivity tools",
+        "startDate": "2024-03-01T00:00:00",
+        "endDate": "2024-08-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Python", "Django", "PostgreSQL", "React"],
+        "metrics": {
+          "linesOfCode": 12000,
+          "bugsFixed": 18,
+          "featuresDelivered": 10,
+          "customerSatisfaction": 4.7
+        }
+      },
+      {
+        "id": 3002,
+        "name": "Data Analytics Pipeline",
+        "description": "Automated data processing and analytics pipeline",
+        "startDate": "2024-09-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Python", "Apache Kafka", "Elasticsearch", "Kibana"],
+        "metrics": {
+          "linesOfCode": 6500,
+          "bugsFixed": 5,
+          "featuresDelivered": 4,
+          "customerSatisfaction": 4.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Diana Rodriguez",
+    "department": "Sales",
+    "salary": 105000,
+    "address": {
+      "street": "321 Sales Plaza",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      }
+    },
+    "contactInfo": {
+      "email": "diana.rodriguez@company.com",
+      "phone": "+1-555-0401",
+      "linkedIn": "https://linkedin.com/in/dianarodriguez",
+      "emergencyContact": {
+        "name": "Carlos Rodriguez",
+        "phone": "+1-555-0402",
+        "relationship": "Brother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2019-11-01T00:00:00",
+      "jobTitle": "Senior Sales Representative",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 102,
+        "name": "Michael Davis",
+        "email": "michael.davis@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Commission", "Flexible PTO", "Car Allowance"],
+      "lastReview": {
+        "reviewDate": "2023-11-01T00:00:00",
+        "rating": 9,
+        "comments": "Outstanding sales performance, excellent client relationships",
+        "goals": ["Expand territory", "Mentor new sales reps", "Achieve 120% of quota"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Relationship Building",
+        "level": 10,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Sandler Sales Training"]
+      },
+      {
+        "name": "CRM Management",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Salesforce Administrator"]
+      },
+      {
+        "name": "Negotiation",
+        "level": 9,
+        "yearsExperience": 7,
+        "lastUsed": "2024-10-28T00:00:00",
+        "certifications": ["Harvard Negotiation Project"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 4001,
+        "name": "Enterprise Client Acquisition",
+        "description": "Strategic initiative to acquire major enterprise clients",
+        "startDate": "2024-01-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 25,
+          "customerSatisfaction": 4.9
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Edward Thompson",
+    "department": "HR",
+    "salary": 85000,
+    "address": {
+      "street": "654 HR Heights",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      }
+    },
+    "contactInfo": {
+      "email": "edward.thompson@company.com",
+      "phone": "+1-555-0501",
+      "linkedIn": "https://linkedin.com/in/edwardthompson",
+      "emergencyContact": {
+        "name": "Jennifer Thompson",
+        "phone": "+1-555-0502",
+        "relationship": "Wife"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-06-15T00:00:00",
+      "jobTitle": "HR Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 103,
+        "name": "Rachel Green",
+        "email": "rachel.green@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO", "Professional Development"],
+      "lastReview": {
+        "reviewDate": "2024-06-15T00:00:00",
+        "rating": 7,
+        "comments": "Good attention to detail, strong organizational skills",
+        "goals": ["Improve employee engagement", "Streamline onboarding process", "Develop HR analytics"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Recruitment",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["SHRM-CP"]
+      },
+      {
+        "name": "Employee Relations",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["PHR Certification"]
+      },
+      {
+        "name": "HRIS Systems",
+        "level": 6,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Workday HCM Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 5001,
+        "name": "Employee Onboarding Automation",
+        "description": "Digital transformation of employee onboarding process",
+        "startDate": "2024-04-01T00:00:00",
+        "endDate": "2024-10-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Workday", "DocuSign", "Slack", "Microsoft Forms"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.4
+        }
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "department": "Engineering",
+    "salary": 120000,
+    "address": {
+      "street": "123 Tech Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "contactInfo": {
+      "email": "alice.johnson@company.com",
+      "phone": "+1-555-0101",
+      "linkedIn": "https://linkedin.com/in/alicejohnson",
+      "emergencyContact": {
+        "name": "Bob Johnson",
+        "phone": "+1-555-0102",
+        "relationship": "Spouse"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-03-15T00:00:00",
+      "jobTitle": "Senior Software Engineer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-01-15T00:00:00",
+        "rating": 9,
+        "comments": "Excellent performance, strong technical skills, great team player",
+        "goals": ["Lead architecture design", "Mentor junior developers", "Improve system performance"]
+      }
+    },
+    "skills": [
+      {
+        "name": "C#",
+        "level": 9,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Microsoft Certified: Azure Developer Associate"]
+      },
+      {
+        "name": "JavaScript",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "React",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-09-20T00:00:00",
+        "certifications": []
+      }
+    ],
+    "projects": [
+      {
+        "id": 1001,
+        "name": "Customer Portal Redesign",
+        "description": "Complete overhaul of the customer-facing portal with modern UI/UX",
+        "startDate": "2024-01-01T00:00:00",
+        "endDate": "2024-06-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+        "metrics": {
+          "linesOfCode": 15000,
+          "bugsFixed": 23,
+          "featuresDelivered": 12,
+          "customerSatisfaction": 4.8
+        }
+      },
+      {
+        "id": 1002,
+        "name": "API Microservices Migration",
+        "description": "Migration from monolithic architecture to microservices",
+        "startDate": "2024-07-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["C#", ".NET Core", "Docker", "Kubernetes", "Azure"],
+        "metrics": {
+          "linesOfCode": 8500,
+          "bugsFixed": 15,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.5
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob Martinez",
+    "department": "Marketing",
+    "salary": 95000,
+    "address": {
+      "street": "456 Marketing Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      }
+    },
+    "contactInfo": {
+      "email": "bob.martinez@company.com",
+      "phone": "+1-555-0201",
+      "linkedIn": "https://linkedin.com/in/bobmartinez",
+      "emergencyContact": {
+        "name": "Maria Martinez",
+        "phone": "+1-555-0202",
+        "relationship": "Sister"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2021-08-01T00:00:00",
+      "jobTitle": "Marketing Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 101,
+        "name": "Sarah Wilson",
+        "email": "sarah.wilson@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-02-01T00:00:00",
+        "rating": 8,
+        "comments": "Strong creative skills, good campaign performance",
+        "goals": ["Increase social media engagement", "Launch new product campaign", "Develop video content strategy"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Digital Marketing",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Google Ads Certified", "Facebook Blueprint Certified"]
+      },
+      {
+        "name": "Content Creation",
+        "level": 9,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["Content Marketing Institute Certification"]
+      },
+      {
+        "name": "Analytics",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Google Analytics Certified"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 2001,
+        "name": "Q3 Product Launch Campaign",
+        "description": "Multi-channel marketing campaign for new product launch",
+        "startDate": "2024-07-01T00:00:00",
+        "endDate": "2024-09-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["HubSpot", "Google Ads", "Facebook Ads", "Mailchimp"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 15,
+          "customerSatisfaction": 4.6
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Charlie Chen",
+    "department": "Engineering",
+    "salary": 110000,
+    "address": {
+      "street": "789 Innovation Blvd",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      }
+    },
+    "contactInfo": {
+      "email": "charlie.chen@company.com",
+      "phone": "+1-555-0301",
+      "linkedIn": "https://linkedin.com/in/charliechen",
+      "emergencyContact": {
+        "name": "Lisa Chen",
+        "phone": "+1-555-0302",
+        "relationship": "Mother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2022-01-10T00:00:00",
+      "jobTitle": "Full Stack Developer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO", "Education Reimbursement"],
+      "lastReview": {
+        "reviewDate": "2024-01-10T00:00:00",
+        "rating": 8,
+        "comments": "Solid technical skills, good problem solver",
+        "goals": ["Learn cloud architecture", "Improve testing practices", "Take on team lead role"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Python Institute PCAP"]
+      },
+      {
+        "name": "Django",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-20T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 6,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": ["PostgreSQL Associate Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 3001,
+        "name": "Internal Tools Dashboard",
+        "description": "Centralized dashboard for internal team productivity tools",
+        "startDate": "2024-03-01T00:00:00",
+        "endDate": "2024-08-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Python", "Django", "PostgreSQL", "React"],
+        "metrics": {
+          "linesOfCode": 12000,
+          "bugsFixed": 18,
+          "featuresDelivered": 10,
+          "customerSatisfaction": 4.7
+        }
+      },
+      {
+        "id": 3002,
+        "name": "Data Analytics Pipeline",
+        "description": "Automated data processing and analytics pipeline",
+        "startDate": "2024-09-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Python", "Apache Kafka", "Elasticsearch", "Kibana"],
+        "metrics": {
+          "linesOfCode": 6500,
+          "bugsFixed": 5,
+          "featuresDelivered": 4,
+          "customerSatisfaction": 4.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Diana Rodriguez",
+    "department": "Sales",
+    "salary": 105000,
+    "address": {
+      "street": "321 Sales Plaza",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      }
+    },
+    "contactInfo": {
+      "email": "diana.rodriguez@company.com",
+      "phone": "+1-555-0401",
+      "linkedIn": "https://linkedin.com/in/dianarodriguez",
+      "emergencyContact": {
+        "name": "Carlos Rodriguez",
+        "phone": "+1-555-0402",
+        "relationship": "Brother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2019-11-01T00:00:00",
+      "jobTitle": "Senior Sales Representative",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 102,
+        "name": "Michael Davis",
+        "email": "michael.davis@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Commission", "Flexible PTO", "Car Allowance"],
+      "lastReview": {
+        "reviewDate": "2023-11-01T00:00:00",
+        "rating": 9,
+        "comments": "Outstanding sales performance, excellent client relationships",
+        "goals": ["Expand territory", "Mentor new sales reps", "Achieve 120% of quota"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Relationship Building",
+        "level": 10,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Sandler Sales Training"]
+      },
+      {
+        "name": "CRM Management",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Salesforce Administrator"]
+      },
+      {
+        "name": "Negotiation",
+        "level": 9,
+        "yearsExperience": 7,
+        "lastUsed": "2024-10-28T00:00:00",
+        "certifications": ["Harvard Negotiation Project"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 4001,
+        "name": "Enterprise Client Acquisition",
+        "description": "Strategic initiative to acquire major enterprise clients",
+        "startDate": "2024-01-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 25,
+          "customerSatisfaction": 4.9
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Edward Thompson",
+    "department": "HR",
+    "salary": 85000,
+    "address": {
+      "street": "654 HR Heights",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      }
+    },
+    "contactInfo": {
+      "email": "edward.thompson@company.com",
+      "phone": "+1-555-0501",
+      "linkedIn": "https://linkedin.com/in/edwardthompson",
+      "emergencyContact": {
+        "name": "Jennifer Thompson",
+        "phone": "+1-555-0502",
+        "relationship": "Wife"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-06-15T00:00:00",
+      "jobTitle": "HR Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 103,
+        "name": "Rachel Green",
+        "email": "rachel.green@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO", "Professional Development"],
+      "lastReview": {
+        "reviewDate": "2024-06-15T00:00:00",
+        "rating": 7,
+        "comments": "Good attention to detail, strong organizational skills",
+        "goals": ["Improve employee engagement", "Streamline onboarding process", "Develop HR analytics"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Recruitment",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["SHRM-CP"]
+      },
+      {
+        "name": "Employee Relations",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["PHR Certification"]
+      },
+      {
+        "name": "HRIS Systems",
+        "level": 6,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Workday HCM Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 5001,
+        "name": "Employee Onboarding Automation",
+        "description": "Digital transformation of employee onboarding process",
+        "startDate": "2024-04-01T00:00:00",
+        "endDate": "2024-10-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Workday", "DocuSign", "Slack", "Microsoft Forms"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.4
+        }
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "department": "Engineering",
+    "salary": 120000,
+    "address": {
+      "street": "123 Tech Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "contactInfo": {
+      "email": "alice.johnson@company.com",
+      "phone": "+1-555-0101",
+      "linkedIn": "https://linkedin.com/in/alicejohnson",
+      "emergencyContact": {
+        "name": "Bob Johnson",
+        "phone": "+1-555-0102",
+        "relationship": "Spouse"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-03-15T00:00:00",
+      "jobTitle": "Senior Software Engineer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-01-15T00:00:00",
+        "rating": 9,
+        "comments": "Excellent performance, strong technical skills, great team player",
+        "goals": ["Lead architecture design", "Mentor junior developers", "Improve system performance"]
+      }
+    },
+    "skills": [
+      {
+        "name": "C#",
+        "level": 9,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Microsoft Certified: Azure Developer Associate"]
+      },
+      {
+        "name": "JavaScript",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "React",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-09-20T00:00:00",
+        "certifications": []
+      }
+    ],
+    "projects": [
+      {
+        "id": 1001,
+        "name": "Customer Portal Redesign",
+        "description": "Complete overhaul of the customer-facing portal with modern UI/UX",
+        "startDate": "2024-01-01T00:00:00",
+        "endDate": "2024-06-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+        "metrics": {
+          "linesOfCode": 15000,
+          "bugsFixed": 23,
+          "featuresDelivered": 12,
+          "customerSatisfaction": 4.8
+        }
+      },
+      {
+        "id": 1002,
+        "name": "API Microservices Migration",
+        "description": "Migration from monolithic architecture to microservices",
+        "startDate": "2024-07-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["C#", ".NET Core", "Docker", "Kubernetes", "Azure"],
+        "metrics": {
+          "linesOfCode": 8500,
+          "bugsFixed": 15,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.5
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob Martinez",
+    "department": "Marketing",
+    "salary": 95000,
+    "address": {
+      "street": "456 Marketing Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      }
+    },
+    "contactInfo": {
+      "email": "bob.martinez@company.com",
+      "phone": "+1-555-0201",
+      "linkedIn": "https://linkedin.com/in/bobmartinez",
+      "emergencyContact": {
+        "name": "Maria Martinez",
+        "phone": "+1-555-0202",
+        "relationship": "Sister"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2021-08-01T00:00:00",
+      "jobTitle": "Marketing Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 101,
+        "name": "Sarah Wilson",
+        "email": "sarah.wilson@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-02-01T00:00:00",
+        "rating": 8,
+        "comments": "Strong creative skills, good campaign performance",
+        "goals": ["Increase social media engagement", "Launch new product campaign", "Develop video content strategy"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Digital Marketing",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Google Ads Certified", "Facebook Blueprint Certified"]
+      },
+      {
+        "name": "Content Creation",
+        "level": 9,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["Content Marketing Institute Certification"]
+      },
+      {
+        "name": "Analytics",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Google Analytics Certified"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 2001,
+        "name": "Q3 Product Launch Campaign",
+        "description": "Multi-channel marketing campaign for new product launch",
+        "startDate": "2024-07-01T00:00:00",
+        "endDate": "2024-09-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["HubSpot", "Google Ads", "Facebook Ads", "Mailchimp"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 15,
+          "customerSatisfaction": 4.6
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Charlie Chen",
+    "department": "Engineering",
+    "salary": 110000,
+    "address": {
+      "street": "789 Innovation Blvd",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      }
+    },
+    "contactInfo": {
+      "email": "charlie.chen@company.com",
+      "phone": "+1-555-0301",
+      "linkedIn": "https://linkedin.com/in/charliechen",
+      "emergencyContact": {
+        "name": "Lisa Chen",
+        "phone": "+1-555-0302",
+        "relationship": "Mother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2022-01-10T00:00:00",
+      "jobTitle": "Full Stack Developer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO", "Education Reimbursement"],
+      "lastReview": {
+        "reviewDate": "2024-01-10T00:00:00",
+        "rating": 8,
+        "comments": "Solid technical skills, good problem solver",
+        "goals": ["Learn cloud architecture", "Improve testing practices", "Take on team lead role"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Python Institute PCAP"]
+      },
+      {
+        "name": "Django",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-20T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 6,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": ["PostgreSQL Associate Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 3001,
+        "name": "Internal Tools Dashboard",
+        "description": "Centralized dashboard for internal team productivity tools",
+        "startDate": "2024-03-01T00:00:00",
+        "endDate": "2024-08-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Python", "Django", "PostgreSQL", "React"],
+        "metrics": {
+          "linesOfCode": 12000,
+          "bugsFixed": 18,
+          "featuresDelivered": 10,
+          "customerSatisfaction": 4.7
+        }
+      },
+      {
+        "id": 3002,
+        "name": "Data Analytics Pipeline",
+        "description": "Automated data processing and analytics pipeline",
+        "startDate": "2024-09-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Python", "Apache Kafka", "Elasticsearch", "Kibana"],
+        "metrics": {
+          "linesOfCode": 6500,
+          "bugsFixed": 5,
+          "featuresDelivered": 4,
+          "customerSatisfaction": 4.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Diana Rodriguez",
+    "department": "Sales",
+    "salary": 105000,
+    "address": {
+      "street": "321 Sales Plaza",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      }
+    },
+    "contactInfo": {
+      "email": "diana.rodriguez@company.com",
+      "phone": "+1-555-0401",
+      "linkedIn": "https://linkedin.com/in/dianarodriguez",
+      "emergencyContact": {
+        "name": "Carlos Rodriguez",
+        "phone": "+1-555-0402",
+        "relationship": "Brother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2019-11-01T00:00:00",
+      "jobTitle": "Senior Sales Representative",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 102,
+        "name": "Michael Davis",
+        "email": "michael.davis@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Commission", "Flexible PTO", "Car Allowance"],
+      "lastReview": {
+        "reviewDate": "2023-11-01T00:00:00",
+        "rating": 9,
+        "comments": "Outstanding sales performance, excellent client relationships",
+        "goals": ["Expand territory", "Mentor new sales reps", "Achieve 120% of quota"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Relationship Building",
+        "level": 10,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Sandler Sales Training"]
+      },
+      {
+        "name": "CRM Management",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Salesforce Administrator"]
+      },
+      {
+        "name": "Negotiation",
+        "level": 9,
+        "yearsExperience": 7,
+        "lastUsed": "2024-10-28T00:00:00",
+        "certifications": ["Harvard Negotiation Project"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 4001,
+        "name": "Enterprise Client Acquisition",
+        "description": "Strategic initiative to acquire major enterprise clients",
+        "startDate": "2024-01-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 25,
+          "customerSatisfaction": 4.9
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Edward Thompson",
+    "department": "HR",
+    "salary": 85000,
+    "address": {
+      "street": "654 HR Heights",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      }
+    },
+    "contactInfo": {
+      "email": "edward.thompson@company.com",
+      "phone": "+1-555-0501",
+      "linkedIn": "https://linkedin.com/in/edwardthompson",
+      "emergencyContact": {
+        "name": "Jennifer Thompson",
+        "phone": "+1-555-0502",
+        "relationship": "Wife"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-06-15T00:00:00",
+      "jobTitle": "HR Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 103,
+        "name": "Rachel Green",
+        "email": "rachel.green@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO", "Professional Development"],
+      "lastReview": {
+        "reviewDate": "2024-06-15T00:00:00",
+        "rating": 7,
+        "comments": "Good attention to detail, strong organizational skills",
+        "goals": ["Improve employee engagement", "Streamline onboarding process", "Develop HR analytics"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Recruitment",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["SHRM-CP"]
+      },
+      {
+        "name": "Employee Relations",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["PHR Certification"]
+      },
+      {
+        "name": "HRIS Systems",
+        "level": 6,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Workday HCM Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 5001,
+        "name": "Employee Onboarding Automation",
+        "description": "Digital transformation of employee onboarding process",
+        "startDate": "2024-04-01T00:00:00",
+        "endDate": "2024-10-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Workday", "DocuSign", "Slack", "Microsoft Forms"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.4
+        }
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "department": "Engineering",
+    "salary": 120000,
+    "address": {
+      "street": "123 Tech Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "contactInfo": {
+      "email": "alice.johnson@company.com",
+      "phone": "+1-555-0101",
+      "linkedIn": "https://linkedin.com/in/alicejohnson",
+      "emergencyContact": {
+        "name": "Bob Johnson",
+        "phone": "+1-555-0102",
+        "relationship": "Spouse"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-03-15T00:00:00",
+      "jobTitle": "Senior Software Engineer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-01-15T00:00:00",
+        "rating": 9,
+        "comments": "Excellent performance, strong technical skills, great team player",
+        "goals": ["Lead architecture design", "Mentor junior developers", "Improve system performance"]
+      }
+    },
+    "skills": [
+      {
+        "name": "C#",
+        "level": 9,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Microsoft Certified: Azure Developer Associate"]
+      },
+      {
+        "name": "JavaScript",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "React",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-09-20T00:00:00",
+        "certifications": []
+      }
+    ],
+    "projects": [
+      {
+        "id": 1001,
+        "name": "Customer Portal Redesign",
+        "description": "Complete overhaul of the customer-facing portal with modern UI/UX",
+        "startDate": "2024-01-01T00:00:00",
+        "endDate": "2024-06-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+        "metrics": {
+          "linesOfCode": 15000,
+          "bugsFixed": 23,
+          "featuresDelivered": 12,
+          "customerSatisfaction": 4.8
+        }
+      },
+      {
+        "id": 1002,
+        "name": "API Microservices Migration",
+        "description": "Migration from monolithic architecture to microservices",
+        "startDate": "2024-07-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["C#", ".NET Core", "Docker", "Kubernetes", "Azure"],
+        "metrics": {
+          "linesOfCode": 8500,
+          "bugsFixed": 15,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.5
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob Martinez",
+    "department": "Marketing",
+    "salary": 95000,
+    "address": {
+      "street": "456 Marketing Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      }
+    },
+    "contactInfo": {
+      "email": "bob.martinez@company.com",
+      "phone": "+1-555-0201",
+      "linkedIn": "https://linkedin.com/in/bobmartinez",
+      "emergencyContact": {
+        "name": "Maria Martinez",
+        "phone": "+1-555-0202",
+        "relationship": "Sister"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2021-08-01T00:00:00",
+      "jobTitle": "Marketing Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 101,
+        "name": "Sarah Wilson",
+        "email": "sarah.wilson@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-02-01T00:00:00",
+        "rating": 8,
+        "comments": "Strong creative skills, good campaign performance",
+        "goals": ["Increase social media engagement", "Launch new product campaign", "Develop video content strategy"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Digital Marketing",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Google Ads Certified", "Facebook Blueprint Certified"]
+      },
+      {
+        "name": "Content Creation",
+        "level": 9,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["Content Marketing Institute Certification"]
+      },
+      {
+        "name": "Analytics",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Google Analytics Certified"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 2001,
+        "name": "Q3 Product Launch Campaign",
+        "description": "Multi-channel marketing campaign for new product launch",
+        "startDate": "2024-07-01T00:00:00",
+        "endDate": "2024-09-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["HubSpot", "Google Ads", "Facebook Ads", "Mailchimp"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 15,
+          "customerSatisfaction": 4.6
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Charlie Chen",
+    "department": "Engineering",
+    "salary": 110000,
+    "address": {
+      "street": "789 Innovation Blvd",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      }
+    },
+    "contactInfo": {
+      "email": "charlie.chen@company.com",
+      "phone": "+1-555-0301",
+      "linkedIn": "https://linkedin.com/in/charliechen",
+      "emergencyContact": {
+        "name": "Lisa Chen",
+        "phone": "+1-555-0302",
+        "relationship": "Mother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2022-01-10T00:00:00",
+      "jobTitle": "Full Stack Developer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO", "Education Reimbursement"],
+      "lastReview": {
+        "reviewDate": "2024-01-10T00:00:00",
+        "rating": 8,
+        "comments": "Solid technical skills, good problem solver",
+        "goals": ["Learn cloud architecture", "Improve testing practices", "Take on team lead role"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Python Institute PCAP"]
+      },
+      {
+        "name": "Django",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-20T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 6,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": ["PostgreSQL Associate Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 3001,
+        "name": "Internal Tools Dashboard",
+        "description": "Centralized dashboard for internal team productivity tools",
+        "startDate": "2024-03-01T00:00:00",
+        "endDate": "2024-08-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Python", "Django", "PostgreSQL", "React"],
+        "metrics": {
+          "linesOfCode": 12000,
+          "bugsFixed": 18,
+          "featuresDelivered": 10,
+          "customerSatisfaction": 4.7
+        }
+      },
+      {
+        "id": 3002,
+        "name": "Data Analytics Pipeline",
+        "description": "Automated data processing and analytics pipeline",
+        "startDate": "2024-09-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Python", "Apache Kafka", "Elasticsearch", "Kibana"],
+        "metrics": {
+          "linesOfCode": 6500,
+          "bugsFixed": 5,
+          "featuresDelivered": 4,
+          "customerSatisfaction": 4.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Diana Rodriguez",
+    "department": "Sales",
+    "salary": 105000,
+    "address": {
+      "street": "321 Sales Plaza",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      }
+    },
+    "contactInfo": {
+      "email": "diana.rodriguez@company.com",
+      "phone": "+1-555-0401",
+      "linkedIn": "https://linkedin.com/in/dianarodriguez",
+      "emergencyContact": {
+        "name": "Carlos Rodriguez",
+        "phone": "+1-555-0402",
+        "relationship": "Brother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2019-11-01T00:00:00",
+      "jobTitle": "Senior Sales Representative",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 102,
+        "name": "Michael Davis",
+        "email": "michael.davis@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Commission", "Flexible PTO", "Car Allowance"],
+      "lastReview": {
+        "reviewDate": "2023-11-01T00:00:00",
+        "rating": 9,
+        "comments": "Outstanding sales performance, excellent client relationships",
+        "goals": ["Expand territory", "Mentor new sales reps", "Achieve 120% of quota"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Relationship Building",
+        "level": 10,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Sandler Sales Training"]
+      },
+      {
+        "name": "CRM Management",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Salesforce Administrator"]
+      },
+      {
+        "name": "Negotiation",
+        "level": 9,
+        "yearsExperience": 7,
+        "lastUsed": "2024-10-28T00:00:00",
+        "certifications": ["Harvard Negotiation Project"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 4001,
+        "name": "Enterprise Client Acquisition",
+        "description": "Strategic initiative to acquire major enterprise clients",
+        "startDate": "2024-01-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 25,
+          "customerSatisfaction": 4.9
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Edward Thompson",
+    "department": "HR",
+    "salary": 85000,
+    "address": {
+      "street": "654 HR Heights",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      }
+    },
+    "contactInfo": {
+      "email": "edward.thompson@company.com",
+      "phone": "+1-555-0501",
+      "linkedIn": "https://linkedin.com/in/edwardthompson",
+      "emergencyContact": {
+        "name": "Jennifer Thompson",
+        "phone": "+1-555-0502",
+        "relationship": "Wife"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-06-15T00:00:00",
+      "jobTitle": "HR Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 103,
+        "name": "Rachel Green",
+        "email": "rachel.green@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO", "Professional Development"],
+      "lastReview": {
+        "reviewDate": "2024-06-15T00:00:00",
+        "rating": 7,
+        "comments": "Good attention to detail, strong organizational skills",
+        "goals": ["Improve employee engagement", "Streamline onboarding process", "Develop HR analytics"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Recruitment",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["SHRM-CP"]
+      },
+      {
+        "name": "Employee Relations",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["PHR Certification"]
+      },
+      {
+        "name": "HRIS Systems",
+        "level": 6,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Workday HCM Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 5001,
+        "name": "Employee Onboarding Automation",
+        "description": "Digital transformation of employee onboarding process",
+        "startDate": "2024-04-01T00:00:00",
+        "endDate": "2024-10-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Workday", "DocuSign", "Slack", "Microsoft Forms"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.4
+        }
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "department": "Engineering",
+    "salary": 120000,
+    "address": {
+      "street": "123 Tech Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "contactInfo": {
+      "email": "alice.johnson@company.com",
+      "phone": "+1-555-0101",
+      "linkedIn": "https://linkedin.com/in/alicejohnson",
+      "emergencyContact": {
+        "name": "Bob Johnson",
+        "phone": "+1-555-0102",
+        "relationship": "Spouse"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-03-15T00:00:00",
+      "jobTitle": "Senior Software Engineer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-01-15T00:00:00",
+        "rating": 9,
+        "comments": "Excellent performance, strong technical skills, great team player",
+        "goals": ["Lead architecture design", "Mentor junior developers", "Improve system performance"]
+      }
+    },
+    "skills": [
+      {
+        "name": "C#",
+        "level": 9,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Microsoft Certified: Azure Developer Associate"]
+      },
+      {
+        "name": "JavaScript",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "React",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-09-20T00:00:00",
+        "certifications": []
+      }
+    ],
+    "projects": [
+      {
+        "id": 1001,
+        "name": "Customer Portal Redesign",
+        "description": "Complete overhaul of the customer-facing portal with modern UI/UX",
+        "startDate": "2024-01-01T00:00:00",
+        "endDate": "2024-06-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+        "metrics": {
+          "linesOfCode": 15000,
+          "bugsFixed": 23,
+          "featuresDelivered": 12,
+          "customerSatisfaction": 4.8
+        }
+      },
+      {
+        "id": 1002,
+        "name": "API Microservices Migration",
+        "description": "Migration from monolithic architecture to microservices",
+        "startDate": "2024-07-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["C#", ".NET Core", "Docker", "Kubernetes", "Azure"],
+        "metrics": {
+          "linesOfCode": 8500,
+          "bugsFixed": 15,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.5
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob Martinez",
+    "department": "Marketing",
+    "salary": 95000,
+    "address": {
+      "street": "456 Marketing Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      }
+    },
+    "contactInfo": {
+      "email": "bob.martinez@company.com",
+      "phone": "+1-555-0201",
+      "linkedIn": "https://linkedin.com/in/bobmartinez",
+      "emergencyContact": {
+        "name": "Maria Martinez",
+        "phone": "+1-555-0202",
+        "relationship": "Sister"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2021-08-01T00:00:00",
+      "jobTitle": "Marketing Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 101,
+        "name": "Sarah Wilson",
+        "email": "sarah.wilson@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-02-01T00:00:00",
+        "rating": 8,
+        "comments": "Strong creative skills, good campaign performance",
+        "goals": ["Increase social media engagement", "Launch new product campaign", "Develop video content strategy"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Digital Marketing",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Google Ads Certified", "Facebook Blueprint Certified"]
+      },
+      {
+        "name": "Content Creation",
+        "level": 9,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["Content Marketing Institute Certification"]
+      },
+      {
+        "name": "Analytics",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Google Analytics Certified"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 2001,
+        "name": "Q3 Product Launch Campaign",
+        "description": "Multi-channel marketing campaign for new product launch",
+        "startDate": "2024-07-01T00:00:00",
+        "endDate": "2024-09-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["HubSpot", "Google Ads", "Facebook Ads", "Mailchimp"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 15,
+          "customerSatisfaction": 4.6
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Charlie Chen",
+    "department": "Engineering",
+    "salary": 110000,
+    "address": {
+      "street": "789 Innovation Blvd",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      }
+    },
+    "contactInfo": {
+      "email": "charlie.chen@company.com",
+      "phone": "+1-555-0301",
+      "linkedIn": "https://linkedin.com/in/charliechen",
+      "emergencyContact": {
+        "name": "Lisa Chen",
+        "phone": "+1-555-0302",
+        "relationship": "Mother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2022-01-10T00:00:00",
+      "jobTitle": "Full Stack Developer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO", "Education Reimbursement"],
+      "lastReview": {
+        "reviewDate": "2024-01-10T00:00:00",
+        "rating": 8,
+        "comments": "Solid technical skills, good problem solver",
+        "goals": ["Learn cloud architecture", "Improve testing practices", "Take on team lead role"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Python Institute PCAP"]
+      },
+      {
+        "name": "Django",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-20T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 6,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": ["PostgreSQL Associate Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 3001,
+        "name": "Internal Tools Dashboard",
+        "description": "Centralized dashboard for internal team productivity tools",
+        "startDate": "2024-03-01T00:00:00",
+        "endDate": "2024-08-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Python", "Django", "PostgreSQL", "React"],
+        "metrics": {
+          "linesOfCode": 12000,
+          "bugsFixed": 18,
+          "featuresDelivered": 10,
+          "customerSatisfaction": 4.7
+        }
+      },
+      {
+        "id": 3002,
+        "name": "Data Analytics Pipeline",
+        "description": "Automated data processing and analytics pipeline",
+        "startDate": "2024-09-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Python", "Apache Kafka", "Elasticsearch", "Kibana"],
+        "metrics": {
+          "linesOfCode": 6500,
+          "bugsFixed": 5,
+          "featuresDelivered": 4,
+          "customerSatisfaction": 4.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Diana Rodriguez",
+    "department": "Sales",
+    "salary": 105000,
+    "address": {
+      "street": "321 Sales Plaza",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      }
+    },
+    "contactInfo": {
+      "email": "diana.rodriguez@company.com",
+      "phone": "+1-555-0401",
+      "linkedIn": "https://linkedin.com/in/dianarodriguez",
+      "emergencyContact": {
+        "name": "Carlos Rodriguez",
+        "phone": "+1-555-0402",
+        "relationship": "Brother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2019-11-01T00:00:00",
+      "jobTitle": "Senior Sales Representative",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 102,
+        "name": "Michael Davis",
+        "email": "michael.davis@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Commission", "Flexible PTO", "Car Allowance"],
+      "lastReview": {
+        "reviewDate": "2023-11-01T00:00:00",
+        "rating": 9,
+        "comments": "Outstanding sales performance, excellent client relationships",
+        "goals": ["Expand territory", "Mentor new sales reps", "Achieve 120% of quota"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Relationship Building",
+        "level": 10,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Sandler Sales Training"]
+      },
+      {
+        "name": "CRM Management",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Salesforce Administrator"]
+      },
+      {
+        "name": "Negotiation",
+        "level": 9,
+        "yearsExperience": 7,
+        "lastUsed": "2024-10-28T00:00:00",
+        "certifications": ["Harvard Negotiation Project"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 4001,
+        "name": "Enterprise Client Acquisition",
+        "description": "Strategic initiative to acquire major enterprise clients",
+        "startDate": "2024-01-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 25,
+          "customerSatisfaction": 4.9
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Edward Thompson",
+    "department": "HR",
+    "salary": 85000,
+    "address": {
+      "street": "654 HR Heights",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      }
+    },
+    "contactInfo": {
+      "email": "edward.thompson@company.com",
+      "phone": "+1-555-0501",
+      "linkedIn": "https://linkedin.com/in/edwardthompson",
+      "emergencyContact": {
+        "name": "Jennifer Thompson",
+        "phone": "+1-555-0502",
+        "relationship": "Wife"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-06-15T00:00:00",
+      "jobTitle": "HR Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 103,
+        "name": "Rachel Green",
+        "email": "rachel.green@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO", "Professional Development"],
+      "lastReview": {
+        "reviewDate": "2024-06-15T00:00:00",
+        "rating": 7,
+        "comments": "Good attention to detail, strong organizational skills",
+        "goals": ["Improve employee engagement", "Streamline onboarding process", "Develop HR analytics"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Recruitment",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["SHRM-CP"]
+      },
+      {
+        "name": "Employee Relations",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["PHR Certification"]
+      },
+      {
+        "name": "HRIS Systems",
+        "level": 6,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Workday HCM Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 5001,
+        "name": "Employee Onboarding Automation",
+        "description": "Digital transformation of employee onboarding process",
+        "startDate": "2024-04-01T00:00:00",
+        "endDate": "2024-10-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Workday", "DocuSign", "Slack", "Microsoft Forms"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.4
+        }
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "department": "Engineering",
+    "salary": 120000,
+    "address": {
+      "street": "123 Tech Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "contactInfo": {
+      "email": "alice.johnson@company.com",
+      "phone": "+1-555-0101",
+      "linkedIn": "https://linkedin.com/in/alicejohnson",
+      "emergencyContact": {
+        "name": "Bob Johnson",
+        "phone": "+1-555-0102",
+        "relationship": "Spouse"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-03-15T00:00:00",
+      "jobTitle": "Senior Software Engineer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-01-15T00:00:00",
+        "rating": 9,
+        "comments": "Excellent performance, strong technical skills, great team player",
+        "goals": ["Lead architecture design", "Mentor junior developers", "Improve system performance"]
+      }
+    },
+    "skills": [
+      {
+        "name": "C#",
+        "level": 9,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Microsoft Certified: Azure Developer Associate"]
+      },
+      {
+        "name": "JavaScript",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "React",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-09-20T00:00:00",
+        "certifications": []
+      }
+    ],
+    "projects": [
+      {
+        "id": 1001,
+        "name": "Customer Portal Redesign",
+        "description": "Complete overhaul of the customer-facing portal with modern UI/UX",
+        "startDate": "2024-01-01T00:00:00",
+        "endDate": "2024-06-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+        "metrics": {
+          "linesOfCode": 15000,
+          "bugsFixed": 23,
+          "featuresDelivered": 12,
+          "customerSatisfaction": 4.8
+        }
+      },
+      {
+        "id": 1002,
+        "name": "API Microservices Migration",
+        "description": "Migration from monolithic architecture to microservices",
+        "startDate": "2024-07-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["C#", ".NET Core", "Docker", "Kubernetes", "Azure"],
+        "metrics": {
+          "linesOfCode": 8500,
+          "bugsFixed": 15,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.5
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob Martinez",
+    "department": "Marketing",
+    "salary": 95000,
+    "address": {
+      "street": "456 Marketing Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      }
+    },
+    "contactInfo": {
+      "email": "bob.martinez@company.com",
+      "phone": "+1-555-0201",
+      "linkedIn": "https://linkedin.com/in/bobmartinez",
+      "emergencyContact": {
+        "name": "Maria Martinez",
+        "phone": "+1-555-0202",
+        "relationship": "Sister"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2021-08-01T00:00:00",
+      "jobTitle": "Marketing Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 101,
+        "name": "Sarah Wilson",
+        "email": "sarah.wilson@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-02-01T00:00:00",
+        "rating": 8,
+        "comments": "Strong creative skills, good campaign performance",
+        "goals": ["Increase social media engagement", "Launch new product campaign", "Develop video content strategy"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Digital Marketing",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Google Ads Certified", "Facebook Blueprint Certified"]
+      },
+      {
+        "name": "Content Creation",
+        "level": 9,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["Content Marketing Institute Certification"]
+      },
+      {
+        "name": "Analytics",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Google Analytics Certified"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 2001,
+        "name": "Q3 Product Launch Campaign",
+        "description": "Multi-channel marketing campaign for new product launch",
+        "startDate": "2024-07-01T00:00:00",
+        "endDate": "2024-09-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["HubSpot", "Google Ads", "Facebook Ads", "Mailchimp"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 15,
+          "customerSatisfaction": 4.6
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Charlie Chen",
+    "department": "Engineering",
+    "salary": 110000,
+    "address": {
+      "street": "789 Innovation Blvd",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      }
+    },
+    "contactInfo": {
+      "email": "charlie.chen@company.com",
+      "phone": "+1-555-0301",
+      "linkedIn": "https://linkedin.com/in/charliechen",
+      "emergencyContact": {
+        "name": "Lisa Chen",
+        "phone": "+1-555-0302",
+        "relationship": "Mother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2022-01-10T00:00:00",
+      "jobTitle": "Full Stack Developer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO", "Education Reimbursement"],
+      "lastReview": {
+        "reviewDate": "2024-01-10T00:00:00",
+        "rating": 8,
+        "comments": "Solid technical skills, good problem solver",
+        "goals": ["Learn cloud architecture", "Improve testing practices", "Take on team lead role"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Python Institute PCAP"]
+      },
+      {
+        "name": "Django",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-20T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 6,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": ["PostgreSQL Associate Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 3001,
+        "name": "Internal Tools Dashboard",
+        "description": "Centralized dashboard for internal team productivity tools",
+        "startDate": "2024-03-01T00:00:00",
+        "endDate": "2024-08-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Python", "Django", "PostgreSQL", "React"],
+        "metrics": {
+          "linesOfCode": 12000,
+          "bugsFixed": 18,
+          "featuresDelivered": 10,
+          "customerSatisfaction": 4.7
+        }
+      },
+      {
+        "id": 3002,
+        "name": "Data Analytics Pipeline",
+        "description": "Automated data processing and analytics pipeline",
+        "startDate": "2024-09-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Python", "Apache Kafka", "Elasticsearch", "Kibana"],
+        "metrics": {
+          "linesOfCode": 6500,
+          "bugsFixed": 5,
+          "featuresDelivered": 4,
+          "customerSatisfaction": 4.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Diana Rodriguez",
+    "department": "Sales",
+    "salary": 105000,
+    "address": {
+      "street": "321 Sales Plaza",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      }
+    },
+    "contactInfo": {
+      "email": "diana.rodriguez@company.com",
+      "phone": "+1-555-0401",
+      "linkedIn": "https://linkedin.com/in/dianarodriguez",
+      "emergencyContact": {
+        "name": "Carlos Rodriguez",
+        "phone": "+1-555-0402",
+        "relationship": "Brother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2019-11-01T00:00:00",
+      "jobTitle": "Senior Sales Representative",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 102,
+        "name": "Michael Davis",
+        "email": "michael.davis@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Commission", "Flexible PTO", "Car Allowance"],
+      "lastReview": {
+        "reviewDate": "2023-11-01T00:00:00",
+        "rating": 9,
+        "comments": "Outstanding sales performance, excellent client relationships",
+        "goals": ["Expand territory", "Mentor new sales reps", "Achieve 120% of quota"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Relationship Building",
+        "level": 10,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Sandler Sales Training"]
+      },
+      {
+        "name": "CRM Management",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Salesforce Administrator"]
+      },
+      {
+        "name": "Negotiation",
+        "level": 9,
+        "yearsExperience": 7,
+        "lastUsed": "2024-10-28T00:00:00",
+        "certifications": ["Harvard Negotiation Project"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 4001,
+        "name": "Enterprise Client Acquisition",
+        "description": "Strategic initiative to acquire major enterprise clients",
+        "startDate": "2024-01-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 25,
+          "customerSatisfaction": 4.9
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Edward Thompson",
+    "department": "HR",
+    "salary": 85000,
+    "address": {
+      "street": "654 HR Heights",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      }
+    },
+    "contactInfo": {
+      "email": "edward.thompson@company.com",
+      "phone": "+1-555-0501",
+      "linkedIn": "https://linkedin.com/in/edwardthompson",
+      "emergencyContact": {
+        "name": "Jennifer Thompson",
+        "phone": "+1-555-0502",
+        "relationship": "Wife"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-06-15T00:00:00",
+      "jobTitle": "HR Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 103,
+        "name": "Rachel Green",
+        "email": "rachel.green@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO", "Professional Development"],
+      "lastReview": {
+        "reviewDate": "2024-06-15T00:00:00",
+        "rating": 7,
+        "comments": "Good attention to detail, strong organizational skills",
+        "goals": ["Improve employee engagement", "Streamline onboarding process", "Develop HR analytics"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Recruitment",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["SHRM-CP"]
+      },
+      {
+        "name": "Employee Relations",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["PHR Certification"]
+      },
+      {
+        "name": "HRIS Systems",
+        "level": 6,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Workday HCM Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 5001,
+        "name": "Employee Onboarding Automation",
+        "description": "Digital transformation of employee onboarding process",
+        "startDate": "2024-04-01T00:00:00",
+        "endDate": "2024-10-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Workday", "DocuSign", "Slack", "Microsoft Forms"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.4
+        }
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "department": "Engineering",
+    "salary": 120000,
+    "address": {
+      "street": "123 Tech Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "contactInfo": {
+      "email": "alice.johnson@company.com",
+      "phone": "+1-555-0101",
+      "linkedIn": "https://linkedin.com/in/alicejohnson",
+      "emergencyContact": {
+        "name": "Bob Johnson",
+        "phone": "+1-555-0102",
+        "relationship": "Spouse"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-03-15T00:00:00",
+      "jobTitle": "Senior Software Engineer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-01-15T00:00:00",
+        "rating": 9,
+        "comments": "Excellent performance, strong technical skills, great team player",
+        "goals": ["Lead architecture design", "Mentor junior developers", "Improve system performance"]
+      }
+    },
+    "skills": [
+      {
+        "name": "C#",
+        "level": 9,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Microsoft Certified: Azure Developer Associate"]
+      },
+      {
+        "name": "JavaScript",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "React",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-09-20T00:00:00",
+        "certifications": []
+      }
+    ],
+    "projects": [
+      {
+        "id": 1001,
+        "name": "Customer Portal Redesign",
+        "description": "Complete overhaul of the customer-facing portal with modern UI/UX",
+        "startDate": "2024-01-01T00:00:00",
+        "endDate": "2024-06-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+        "metrics": {
+          "linesOfCode": 15000,
+          "bugsFixed": 23,
+          "featuresDelivered": 12,
+          "customerSatisfaction": 4.8
+        }
+      },
+      {
+        "id": 1002,
+        "name": "API Microservices Migration",
+        "description": "Migration from monolithic architecture to microservices",
+        "startDate": "2024-07-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["C#", ".NET Core", "Docker", "Kubernetes", "Azure"],
+        "metrics": {
+          "linesOfCode": 8500,
+          "bugsFixed": 15,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.5
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob Martinez",
+    "department": "Marketing",
+    "salary": 95000,
+    "address": {
+      "street": "456 Marketing Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      }
+    },
+    "contactInfo": {
+      "email": "bob.martinez@company.com",
+      "phone": "+1-555-0201",
+      "linkedIn": "https://linkedin.com/in/bobmartinez",
+      "emergencyContact": {
+        "name": "Maria Martinez",
+        "phone": "+1-555-0202",
+        "relationship": "Sister"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2021-08-01T00:00:00",
+      "jobTitle": "Marketing Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 101,
+        "name": "Sarah Wilson",
+        "email": "sarah.wilson@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-02-01T00:00:00",
+        "rating": 8,
+        "comments": "Strong creative skills, good campaign performance",
+        "goals": ["Increase social media engagement", "Launch new product campaign", "Develop video content strategy"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Digital Marketing",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Google Ads Certified", "Facebook Blueprint Certified"]
+      },
+      {
+        "name": "Content Creation",
+        "level": 9,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["Content Marketing Institute Certification"]
+      },
+      {
+        "name": "Analytics",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Google Analytics Certified"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 2001,
+        "name": "Q3 Product Launch Campaign",
+        "description": "Multi-channel marketing campaign for new product launch",
+        "startDate": "2024-07-01T00:00:00",
+        "endDate": "2024-09-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["HubSpot", "Google Ads", "Facebook Ads", "Mailchimp"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 15,
+          "customerSatisfaction": 4.6
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Charlie Chen",
+    "department": "Engineering",
+    "salary": 110000,
+    "address": {
+      "street": "789 Innovation Blvd",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      }
+    },
+    "contactInfo": {
+      "email": "charlie.chen@company.com",
+      "phone": "+1-555-0301",
+      "linkedIn": "https://linkedin.com/in/charliechen",
+      "emergencyContact": {
+        "name": "Lisa Chen",
+        "phone": "+1-555-0302",
+        "relationship": "Mother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2022-01-10T00:00:00",
+      "jobTitle": "Full Stack Developer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO", "Education Reimbursement"],
+      "lastReview": {
+        "reviewDate": "2024-01-10T00:00:00",
+        "rating": 8,
+        "comments": "Solid technical skills, good problem solver",
+        "goals": ["Learn cloud architecture", "Improve testing practices", "Take on team lead role"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Python Institute PCAP"]
+      },
+      {
+        "name": "Django",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-20T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 6,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": ["PostgreSQL Associate Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 3001,
+        "name": "Internal Tools Dashboard",
+        "description": "Centralized dashboard for internal team productivity tools",
+        "startDate": "2024-03-01T00:00:00",
+        "endDate": "2024-08-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Python", "Django", "PostgreSQL", "React"],
+        "metrics": {
+          "linesOfCode": 12000,
+          "bugsFixed": 18,
+          "featuresDelivered": 10,
+          "customerSatisfaction": 4.7
+        }
+      },
+      {
+        "id": 3002,
+        "name": "Data Analytics Pipeline",
+        "description": "Automated data processing and analytics pipeline",
+        "startDate": "2024-09-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Python", "Apache Kafka", "Elasticsearch", "Kibana"],
+        "metrics": {
+          "linesOfCode": 6500,
+          "bugsFixed": 5,
+          "featuresDelivered": 4,
+          "customerSatisfaction": 4.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Diana Rodriguez",
+    "department": "Sales",
+    "salary": 105000,
+    "address": {
+      "street": "321 Sales Plaza",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      }
+    },
+    "contactInfo": {
+      "email": "diana.rodriguez@company.com",
+      "phone": "+1-555-0401",
+      "linkedIn": "https://linkedin.com/in/dianarodriguez",
+      "emergencyContact": {
+        "name": "Carlos Rodriguez",
+        "phone": "+1-555-0402",
+        "relationship": "Brother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2019-11-01T00:00:00",
+      "jobTitle": "Senior Sales Representative",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 102,
+        "name": "Michael Davis",
+        "email": "michael.davis@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Commission", "Flexible PTO", "Car Allowance"],
+      "lastReview": {
+        "reviewDate": "2023-11-01T00:00:00",
+        "rating": 9,
+        "comments": "Outstanding sales performance, excellent client relationships",
+        "goals": ["Expand territory", "Mentor new sales reps", "Achieve 120% of quota"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Relationship Building",
+        "level": 10,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Sandler Sales Training"]
+      },
+      {
+        "name": "CRM Management",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Salesforce Administrator"]
+      },
+      {
+        "name": "Negotiation",
+        "level": 9,
+        "yearsExperience": 7,
+        "lastUsed": "2024-10-28T00:00:00",
+        "certifications": ["Harvard Negotiation Project"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 4001,
+        "name": "Enterprise Client Acquisition",
+        "description": "Strategic initiative to acquire major enterprise clients",
+        "startDate": "2024-01-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 25,
+          "customerSatisfaction": 4.9
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Edward Thompson",
+    "department": "HR",
+    "salary": 85000,
+    "address": {
+      "street": "654 HR Heights",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      }
+    },
+    "contactInfo": {
+      "email": "edward.thompson@company.com",
+      "phone": "+1-555-0501",
+      "linkedIn": "https://linkedin.com/in/edwardthompson",
+      "emergencyContact": {
+        "name": "Jennifer Thompson",
+        "phone": "+1-555-0502",
+        "relationship": "Wife"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-06-15T00:00:00",
+      "jobTitle": "HR Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 103,
+        "name": "Rachel Green",
+        "email": "rachel.green@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO", "Professional Development"],
+      "lastReview": {
+        "reviewDate": "2024-06-15T00:00:00",
+        "rating": 7,
+        "comments": "Good attention to detail, strong organizational skills",
+        "goals": ["Improve employee engagement", "Streamline onboarding process", "Develop HR analytics"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Recruitment",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["SHRM-CP"]
+      },
+      {
+        "name": "Employee Relations",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["PHR Certification"]
+      },
+      {
+        "name": "HRIS Systems",
+        "level": 6,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Workday HCM Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 5001,
+        "name": "Employee Onboarding Automation",
+        "description": "Digital transformation of employee onboarding process",
+        "startDate": "2024-04-01T00:00:00",
+        "endDate": "2024-10-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Workday", "DocuSign", "Slack", "Microsoft Forms"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.4
+        }
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "department": "Engineering",
+    "salary": 120000,
+    "address": {
+      "street": "123 Tech Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "contactInfo": {
+      "email": "alice.johnson@company.com",
+      "phone": "+1-555-0101",
+      "linkedIn": "https://linkedin.com/in/alicejohnson",
+      "emergencyContact": {
+        "name": "Bob Johnson",
+        "phone": "+1-555-0102",
+        "relationship": "Spouse"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-03-15T00:00:00",
+      "jobTitle": "Senior Software Engineer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-01-15T00:00:00",
+        "rating": 9,
+        "comments": "Excellent performance, strong technical skills, great team player",
+        "goals": ["Lead architecture design", "Mentor junior developers", "Improve system performance"]
+      }
+    },
+    "skills": [
+      {
+        "name": "C#",
+        "level": 9,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Microsoft Certified: Azure Developer Associate"]
+      },
+      {
+        "name": "JavaScript",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "React",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-09-20T00:00:00",
+        "certifications": []
+      }
+    ],
+    "projects": [
+      {
+        "id": 1001,
+        "name": "Customer Portal Redesign",
+        "description": "Complete overhaul of the customer-facing portal with modern UI/UX",
+        "startDate": "2024-01-01T00:00:00",
+        "endDate": "2024-06-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+        "metrics": {
+          "linesOfCode": 15000,
+          "bugsFixed": 23,
+          "featuresDelivered": 12,
+          "customerSatisfaction": 4.8
+        }
+      },
+      {
+        "id": 1002,
+        "name": "API Microservices Migration",
+        "description": "Migration from monolithic architecture to microservices",
+        "startDate": "2024-07-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["C#", ".NET Core", "Docker", "Kubernetes", "Azure"],
+        "metrics": {
+          "linesOfCode": 8500,
+          "bugsFixed": 15,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.5
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob Martinez",
+    "department": "Marketing",
+    "salary": 95000,
+    "address": {
+      "street": "456 Marketing Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      }
+    },
+    "contactInfo": {
+      "email": "bob.martinez@company.com",
+      "phone": "+1-555-0201",
+      "linkedIn": "https://linkedin.com/in/bobmartinez",
+      "emergencyContact": {
+        "name": "Maria Martinez",
+        "phone": "+1-555-0202",
+        "relationship": "Sister"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2021-08-01T00:00:00",
+      "jobTitle": "Marketing Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 101,
+        "name": "Sarah Wilson",
+        "email": "sarah.wilson@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-02-01T00:00:00",
+        "rating": 8,
+        "comments": "Strong creative skills, good campaign performance",
+        "goals": ["Increase social media engagement", "Launch new product campaign", "Develop video content strategy"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Digital Marketing",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Google Ads Certified", "Facebook Blueprint Certified"]
+      },
+      {
+        "name": "Content Creation",
+        "level": 9,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["Content Marketing Institute Certification"]
+      },
+      {
+        "name": "Analytics",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Google Analytics Certified"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 2001,
+        "name": "Q3 Product Launch Campaign",
+        "description": "Multi-channel marketing campaign for new product launch",
+        "startDate": "2024-07-01T00:00:00",
+        "endDate": "2024-09-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["HubSpot", "Google Ads", "Facebook Ads", "Mailchimp"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 15,
+          "customerSatisfaction": 4.6
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Charlie Chen",
+    "department": "Engineering",
+    "salary": 110000,
+    "address": {
+      "street": "789 Innovation Blvd",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      }
+    },
+    "contactInfo": {
+      "email": "charlie.chen@company.com",
+      "phone": "+1-555-0301",
+      "linkedIn": "https://linkedin.com/in/charliechen",
+      "emergencyContact": {
+        "name": "Lisa Chen",
+        "phone": "+1-555-0302",
+        "relationship": "Mother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2022-01-10T00:00:00",
+      "jobTitle": "Full Stack Developer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO", "Education Reimbursement"],
+      "lastReview": {
+        "reviewDate": "2024-01-10T00:00:00",
+        "rating": 8,
+        "comments": "Solid technical skills, good problem solver",
+        "goals": ["Learn cloud architecture", "Improve testing practices", "Take on team lead role"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Python Institute PCAP"]
+      },
+      {
+        "name": "Django",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-20T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 6,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": ["PostgreSQL Associate Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 3001,
+        "name": "Internal Tools Dashboard",
+        "description": "Centralized dashboard for internal team productivity tools",
+        "startDate": "2024-03-01T00:00:00",
+        "endDate": "2024-08-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Python", "Django", "PostgreSQL", "React"],
+        "metrics": {
+          "linesOfCode": 12000,
+          "bugsFixed": 18,
+          "featuresDelivered": 10,
+          "customerSatisfaction": 4.7
+        }
+      },
+      {
+        "id": 3002,
+        "name": "Data Analytics Pipeline",
+        "description": "Automated data processing and analytics pipeline",
+        "startDate": "2024-09-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Python", "Apache Kafka", "Elasticsearch", "Kibana"],
+        "metrics": {
+          "linesOfCode": 6500,
+          "bugsFixed": 5,
+          "featuresDelivered": 4,
+          "customerSatisfaction": 4.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Diana Rodriguez",
+    "department": "Sales",
+    "salary": 105000,
+    "address": {
+      "street": "321 Sales Plaza",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      }
+    },
+    "contactInfo": {
+      "email": "diana.rodriguez@company.com",
+      "phone": "+1-555-0401",
+      "linkedIn": "https://linkedin.com/in/dianarodriguez",
+      "emergencyContact": {
+        "name": "Carlos Rodriguez",
+        "phone": "+1-555-0402",
+        "relationship": "Brother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2019-11-01T00:00:00",
+      "jobTitle": "Senior Sales Representative",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 102,
+        "name": "Michael Davis",
+        "email": "michael.davis@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Commission", "Flexible PTO", "Car Allowance"],
+      "lastReview": {
+        "reviewDate": "2023-11-01T00:00:00",
+        "rating": 9,
+        "comments": "Outstanding sales performance, excellent client relationships",
+        "goals": ["Expand territory", "Mentor new sales reps", "Achieve 120% of quota"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Relationship Building",
+        "level": 10,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Sandler Sales Training"]
+      },
+      {
+        "name": "CRM Management",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Salesforce Administrator"]
+      },
+      {
+        "name": "Negotiation",
+        "level": 9,
+        "yearsExperience": 7,
+        "lastUsed": "2024-10-28T00:00:00",
+        "certifications": ["Harvard Negotiation Project"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 4001,
+        "name": "Enterprise Client Acquisition",
+        "description": "Strategic initiative to acquire major enterprise clients",
+        "startDate": "2024-01-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 25,
+          "customerSatisfaction": 4.9
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Edward Thompson",
+    "department": "HR",
+    "salary": 85000,
+    "address": {
+      "street": "654 HR Heights",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      }
+    },
+    "contactInfo": {
+      "email": "edward.thompson@company.com",
+      "phone": "+1-555-0501",
+      "linkedIn": "https://linkedin.com/in/edwardthompson",
+      "emergencyContact": {
+        "name": "Jennifer Thompson",
+        "phone": "+1-555-0502",
+        "relationship": "Wife"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-06-15T00:00:00",
+      "jobTitle": "HR Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 103,
+        "name": "Rachel Green",
+        "email": "rachel.green@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO", "Professional Development"],
+      "lastReview": {
+        "reviewDate": "2024-06-15T00:00:00",
+        "rating": 7,
+        "comments": "Good attention to detail, strong organizational skills",
+        "goals": ["Improve employee engagement", "Streamline onboarding process", "Develop HR analytics"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Recruitment",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["SHRM-CP"]
+      },
+      {
+        "name": "Employee Relations",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["PHR Certification"]
+      },
+      {
+        "name": "HRIS Systems",
+        "level": 6,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Workday HCM Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 5001,
+        "name": "Employee Onboarding Automation",
+        "description": "Digital transformation of employee onboarding process",
+        "startDate": "2024-04-01T00:00:00",
+        "endDate": "2024-10-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Workday", "DocuSign", "Slack", "Microsoft Forms"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.4
+        }
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "department": "Engineering",
+    "salary": 120000,
+    "address": {
+      "street": "123 Tech Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94105",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "contactInfo": {
+      "email": "alice.johnson@company.com",
+      "phone": "+1-555-0101",
+      "linkedIn": "https://linkedin.com/in/alicejohnson",
+      "emergencyContact": {
+        "name": "Bob Johnson",
+        "phone": "+1-555-0102",
+        "relationship": "Spouse"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-03-15T00:00:00",
+      "jobTitle": "Senior Software Engineer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-01-15T00:00:00",
+        "rating": 9,
+        "comments": "Excellent performance, strong technical skills, great team player",
+        "goals": ["Lead architecture design", "Mentor junior developers", "Improve system performance"]
+      }
+    },
+    "skills": [
+      {
+        "name": "C#",
+        "level": 9,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Microsoft Certified: Azure Developer Associate"]
+      },
+      {
+        "name": "JavaScript",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "React",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-09-20T00:00:00",
+        "certifications": []
+      }
+    ],
+    "projects": [
+      {
+        "id": 1001,
+        "name": "Customer Portal Redesign",
+        "description": "Complete overhaul of the customer-facing portal with modern UI/UX",
+        "startDate": "2024-01-01T00:00:00",
+        "endDate": "2024-06-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+        "metrics": {
+          "linesOfCode": 15000,
+          "bugsFixed": 23,
+          "featuresDelivered": 12,
+          "customerSatisfaction": 4.8
+        }
+      },
+      {
+        "id": 1002,
+        "name": "API Microservices Migration",
+        "description": "Migration from monolithic architecture to microservices",
+        "startDate": "2024-07-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["C#", ".NET Core", "Docker", "Kubernetes", "Azure"],
+        "metrics": {
+          "linesOfCode": 8500,
+          "bugsFixed": 15,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.5
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob Martinez",
+    "department": "Marketing",
+    "salary": 95000,
+    "address": {
+      "street": "456 Marketing Ave",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      }
+    },
+    "contactInfo": {
+      "email": "bob.martinez@company.com",
+      "phone": "+1-555-0201",
+      "linkedIn": "https://linkedin.com/in/bobmartinez",
+      "emergencyContact": {
+        "name": "Maria Martinez",
+        "phone": "+1-555-0202",
+        "relationship": "Sister"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2021-08-01T00:00:00",
+      "jobTitle": "Marketing Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 101,
+        "name": "Sarah Wilson",
+        "email": "sarah.wilson@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO"],
+      "lastReview": {
+        "reviewDate": "2024-02-01T00:00:00",
+        "rating": 8,
+        "comments": "Strong creative skills, good campaign performance",
+        "goals": ["Increase social media engagement", "Launch new product campaign", "Develop video content strategy"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Digital Marketing",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Google Ads Certified", "Facebook Blueprint Certified"]
+      },
+      {
+        "name": "Content Creation",
+        "level": 9,
+        "yearsExperience": 6,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["Content Marketing Institute Certification"]
+      },
+      {
+        "name": "Analytics",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Google Analytics Certified"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 2001,
+        "name": "Q3 Product Launch Campaign",
+        "description": "Multi-channel marketing campaign for new product launch",
+        "startDate": "2024-07-01T00:00:00",
+        "endDate": "2024-09-30T00:00:00",
+        "status": "Completed",
+        "technologies": ["HubSpot", "Google Ads", "Facebook Ads", "Mailchimp"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 15,
+          "customerSatisfaction": 4.6
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Charlie Chen",
+    "department": "Engineering",
+    "salary": 110000,
+    "address": {
+      "street": "789 Innovation Blvd",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      }
+    },
+    "contactInfo": {
+      "email": "charlie.chen@company.com",
+      "phone": "+1-555-0301",
+      "linkedIn": "https://linkedin.com/in/charliechen",
+      "emergencyContact": {
+        "name": "Lisa Chen",
+        "phone": "+1-555-0302",
+        "relationship": "Mother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2022-01-10T00:00:00",
+      "jobTitle": "Full Stack Developer",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 100,
+        "name": "John Smith",
+        "email": "john.smith@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Stock Options", "Flexible PTO", "Education Reimbursement"],
+      "lastReview": {
+        "reviewDate": "2024-01-10T00:00:00",
+        "rating": 8,
+        "comments": "Solid technical skills, good problem solver",
+        "goals": ["Learn cloud architecture", "Improve testing practices", "Take on team lead role"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Python",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Python Institute PCAP"]
+      },
+      {
+        "name": "Django",
+        "level": 7,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-20T00:00:00",
+        "certifications": []
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 6,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-15T00:00:00",
+        "certifications": ["PostgreSQL Associate Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 3001,
+        "name": "Internal Tools Dashboard",
+        "description": "Centralized dashboard for internal team productivity tools",
+        "startDate": "2024-03-01T00:00:00",
+        "endDate": "2024-08-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Python", "Django", "PostgreSQL", "React"],
+        "metrics": {
+          "linesOfCode": 12000,
+          "bugsFixed": 18,
+          "featuresDelivered": 10,
+          "customerSatisfaction": 4.7
+        }
+      },
+      {
+        "id": 3002,
+        "name": "Data Analytics Pipeline",
+        "description": "Automated data processing and analytics pipeline",
+        "startDate": "2024-09-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Python", "Apache Kafka", "Elasticsearch", "Kibana"],
+        "metrics": {
+          "linesOfCode": 6500,
+          "bugsFixed": 5,
+          "featuresDelivered": 4,
+          "customerSatisfaction": 4.3
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Diana Rodriguez",
+    "department": "Sales",
+    "salary": 105000,
+    "address": {
+      "street": "321 Sales Plaza",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      }
+    },
+    "contactInfo": {
+      "email": "diana.rodriguez@company.com",
+      "phone": "+1-555-0401",
+      "linkedIn": "https://linkedin.com/in/dianarodriguez",
+      "emergencyContact": {
+        "name": "Carlos Rodriguez",
+        "phone": "+1-555-0402",
+        "relationship": "Brother"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2019-11-01T00:00:00",
+      "jobTitle": "Senior Sales Representative",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 102,
+        "name": "Michael Davis",
+        "email": "michael.davis@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Commission", "Flexible PTO", "Car Allowance"],
+      "lastReview": {
+        "reviewDate": "2023-11-01T00:00:00",
+        "rating": 9,
+        "comments": "Outstanding sales performance, excellent client relationships",
+        "goals": ["Expand territory", "Mentor new sales reps", "Achieve 120% of quota"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Relationship Building",
+        "level": 10,
+        "yearsExperience": 8,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Sandler Sales Training"]
+      },
+      {
+        "name": "CRM Management",
+        "level": 8,
+        "yearsExperience": 6,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["Salesforce Administrator"]
+      },
+      {
+        "name": "Negotiation",
+        "level": 9,
+        "yearsExperience": 7,
+        "lastUsed": "2024-10-28T00:00:00",
+        "certifications": ["Harvard Negotiation Project"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 4001,
+        "name": "Enterprise Client Acquisition",
+        "description": "Strategic initiative to acquire major enterprise clients",
+        "startDate": "2024-01-01T00:00:00",
+        "status": "In Progress",
+        "technologies": ["Salesforce", "LinkedIn Sales Navigator", "ZoomInfo"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 25,
+          "customerSatisfaction": 4.9
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Edward Thompson",
+    "department": "HR",
+    "salary": 85000,
+    "address": {
+      "street": "654 HR Heights",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      }
+    },
+    "contactInfo": {
+      "email": "edward.thompson@company.com",
+      "phone": "+1-555-0501",
+      "linkedIn": "https://linkedin.com/in/edwardthompson",
+      "emergencyContact": {
+        "name": "Jennifer Thompson",
+        "phone": "+1-555-0502",
+        "relationship": "Wife"
+      }
+    },
+    "employmentDetails": {
+      "hireDate": "2020-06-15T00:00:00",
+      "jobTitle": "HR Specialist",
+      "employmentType": "Full-Time",
+      "manager": {
+        "id": 103,
+        "name": "Rachel Green",
+        "email": "rachel.green@company.com"
+      },
+      "benefits": ["Health Insurance", "401k", "Flexible PTO", "Professional Development"],
+      "lastReview": {
+        "reviewDate": "2024-06-15T00:00:00",
+        "rating": 7,
+        "comments": "Good attention to detail, strong organizational skills",
+        "goals": ["Improve employee engagement", "Streamline onboarding process", "Develop HR analytics"]
+      }
+    },
+    "skills": [
+      {
+        "name": "Recruitment",
+        "level": 7,
+        "yearsExperience": 4,
+        "lastUsed": "2024-10-30T00:00:00",
+        "certifications": ["SHRM-CP"]
+      },
+      {
+        "name": "Employee Relations",
+        "level": 8,
+        "yearsExperience": 5,
+        "lastUsed": "2024-11-01T00:00:00",
+        "certifications": ["PHR Certification"]
+      },
+      {
+        "name": "HRIS Systems",
+        "level": 6,
+        "yearsExperience": 3,
+        "lastUsed": "2024-10-25T00:00:00",
+        "certifications": ["Workday HCM Certification"]
+      }
+    ],
+    "projects": [
+      {
+        "id": 5001,
+        "name": "Employee Onboarding Automation",
+        "description": "Digital transformation of employee onboarding process",
+        "startDate": "2024-04-01T00:00:00",
+        "endDate": "2024-10-31T00:00:00",
+        "status": "Completed",
+        "technologies": ["Workday", "DocuSign", "Slack", "Microsoft Forms"],
+        "metrics": {
+          "linesOfCode": 0,
+          "bugsFixed": 0,
+          "featuresDelivered": 8,
+          "customerSatisfaction": 4.4
+        }
+      }
+    ]
+  }
+]
+
