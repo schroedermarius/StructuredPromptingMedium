@@ -10,7 +10,7 @@ This repo is a small .NET console app that demonstrates **structured prompting**
 If you want the “full narrative”: this project is meant to accompany a blog post in the direction of
 **Structured Prompting in real projects — checklist & best practices**.
 
-> Note: Add your GitHub/blog links here once published.
+> Note: [To my blog post.](https://medium.com/medialesson/structured-prompting-in-real-projects-checklist-best-practices-c39fa789856b)
 
 ---
 
